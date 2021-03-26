@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Pixie - Product Detail</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/tooplate-main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/dialog.css">
+    <link rel="stylesheet" href="assets/css/flex-slider.css">
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/images/header-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="products.html">Products
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <!-- Single Starts Here -->
+    <div class="single-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1 class="product_name">Single Product</h1>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="product-slider">
+              <div id="slider" class="flexslider">
+                <ul class="slides" id="slides1">
+                  <li>
+                    <img src="assets/images/big-01.jpg" />
+                  </li>
+                  <li>
+                    <img src="assets/images/big-02.jpg" />
+                  </li>
+                  <li>
+                    <img src="assets/images/big-03.jpg" />
+                  </li>
+                  <li>
+                    <img src="assets/images/big-04.jpg" />
+                  </li>
+                  <!-- items mirrored twice, total of 12 -->
+                </ul>
+              </div>
+              <div id="carousel" class="flexslider">
+                <ul class="slides" id="slides2">
+                  <li>
+                    <img src="assets/images/thumb-01.jpg" />
+                  </li>
+                  <li>
+                    <img src="assets/images/thumb-02.jpg" />
+                  </li>
+                  <li>
+                    <img src="assets/images/thumb-03.jpg" />
+                  </li>
+                  <li>
+                    <img src="assets/images/thumb-04.jpg" />
+                  </li>
+                  <!-- items mirrored twice, total of 12 -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-content">
+              <h4 class="product_name">Single Product Name</h4>
+              <h6 class="product_price">$55.00</h6>
+              <p class="product_desc">Proin commodo, diam a ultricies sagittis, erat odio rhoncus metus, eu feugiat lorem lacus aliquet arcu. Curabitur in gravida nisi, non placerat nibh. Praesent sit amet diam ultrices, commodo turpis id, dignissim leo. Suspendisse mauris massa, porttitor non fermentum vel, ullamcorper scelerisque velit. </p>
+              <span class="qoh">7 left on stock</span>
+              <form action="" method="get">
+                <label for="quantity">Quantity:</label>
+                <input name="quantity" type="quantity" class="quantity-text" id="quantity" 
+                	onfocus="if(this.value == '1') { this.value = ''; }" 
+                    onBlur="if(this.value == '') { this.value = '1';}"
+                    value="1">
+                <input type="button" id="purchase" class="button" value="Buy Now!">
+              </form>
+              <div class="down-content">
+                <div class="categories">
+                  <h6>Category:
+<!--                    <span><a href="#">Pants</a>,<a href="#">Women</a>,<a href="#">Lifestyle</a></span>-->
+                  </h6>
+                </div>
+                <div class="share">
+                  <h6>Share: <span><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Single Page Ends Here -->
+
+
+    <!-- Similar Starts Here -->
+    <div class="featured-items">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1>You May Also Like</h1>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-01.jpg" alt="Item 1">
+                  <h4>Proin vel ligula</h4>
+                  <h6>$15.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-02.jpg" alt="Item 2">
+                  <h4>Erat odio rhoncus</h4>
+                  <h6>$25.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-03.jpg" alt="Item 3">
+                  <h4>Integer vel turpis</h4>
+                  <h6>$35.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-04.jpg" alt="Item 4">
+                  <h4>Sed purus quam</h4>
+                  <h6>$45.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-05.jpg" alt="Item 5">
+                  <h4>Morbi aliquet</h4>
+                  <h6>$55.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-06.jpg" alt="Item 6">
+                  <h4>Urna ac diam</h4>
+                  <h6>$65.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-04.jpg" alt="Item 7">
+                  <h4>Proin eget imperdiet</h4>
+                  <h6>$75.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-05.jpg" alt="Item 8">
+                  <h4>Nullam risus nisl</h4>
+                  <h6>$85.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-06.jpg" alt="Item 9">
+                  <h4>Cras tempus</h4>
+                  <h6>$95.00</h6>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Similar Ends Here -->
+
+
+    <!-- Subscribe Form Starts Here -->
+    <div class="subscribe-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1>Subscribe on PIXIE now!</h1>
+            </div>
+          </div>
+          <div class="col-md-8 offset-md-2">
+            <div class="main-content">
+              <p>Godard four dollar toast prism, authentic heirloom raw denim messenger bag gochujang put a bird on it celiac readymade vice.</p>
+              <div class="container">
+                <form id="subscribe" action="" method="get">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <fieldset>
+                        <input name="email" type="text" class="form-control" id="email" 
+                        onfocus="if(this.value == 'Your Email...') { this.value = ''; }" 
+                    	onBlur="if(this.value == '') { this.value = 'Your Email...';}"
+                    	value="Your Email..." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-5">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">Subscribe Now!</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Subscribe Form Ends Here -->
+
+
+    
+    <!-- Footer Starts Here -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="logo">
+              <img src="assets/images/header-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">How It Works ?</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="social-icons">
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Ends Here -->
+
+
+    <!-- Sub Footer Starts Here -->
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2019 Company Name 
+                
+                - Design: Tooplate / More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sub Footer Ends Here -->
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/flex-slider.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/jquery.dialog.min.js"></script>
+
+
+    <script type="text/javascript">
+      var pid = window.location.href.split("?pid=")[1].replace(/#/,'')
+      var pname;
+      if(window.location.href.split("?cid=").length>1){
+        $('.nav-link').each(function (i,v) {
+          $(v).attr('href',$(v).attr('href')+'?cid='+window.location.href.split("?pid=")[0].split('?cid=')[1].replace(/#/,''))
+        })
+      }
+      function showProducts(){
+        $('.owl-carousel').html('')
+        $.ajax({
+          url: "../backend/select.php?table_name=products",
+          async:false,
+          //data是成功返回的json串
+          success: function (res) {
+            res = JSON.parse(res);
+            if (res.code == 1) {
+              var data = res.data
+              for(var i=0;i<data.length;i++){
+                $('.owl-carousel').append('<a href="single-product.html?pid=' + data[i]['pid'] + '"><div class="featured-item">' +
+                        '<img src="'+getImage(data[i]['pname'])+'" alt="Item '+i+'" style="width:318px;height: 318px;max-height: auto;max-width: auto; min-width:0px  ; ">' +
+                        '<h4>'+data[i]['pname']+'</h4><h6>'+data[i]['original_price']*(1-data[i]['discnt_rate']).toFixed(2)+'</h6></div></a>')
+              }
+              $('.owl-carousel').owlCarousel();
+            }
+          }
+        })
+      }
+      showProducts()
+      function showInformation(){
+        $.ajax({
+          url: "../backend/controller.php",
+          data:{'req':'more_operation','query':'select * from products where pid="'+pid+'"'},
+          async:false,
+          type:'post',
+          //data是成功返回的json串
+          success: function (res) {
+            res = JSON.parse(res);
+            console.log(res)
+            if (res.code == 1) {
+              var data = res.data[0]
+              pname = data['pname']
+              $('.product_name').text(data['pname'])
+              $('.product_price').text('$'+(data['original_price'] * (1-data['discnt_rate'])).toFixed(2))
+              $('.qoh').text(data['qoh']+' left on stock')
+
+              $.ajax({
+                url: "../backend/controller.php",
+                data: {'req': 'more_operation', 'query': 'select * from suppliers where sid="' + data['sid'] + '"'},
+                async: false,
+                type: 'post',
+                success: function (res) {
+                  res = JSON.parse(res);
+                  var data2 = res.data[0]
+                  var info_str= data['pname'] + ' is supplied by '+data2['sname']+' in '+data2['city']+
+                          ', original price is $'+data['original_price']+' and discnt rate is '+data['discnt_rate']+'. </br>You can get more information by calling '+data2['telephone_no']+'.';
+                  $('.product_desc').html(info_str)
+                }
+              })
+              
+
+            }
+          }
+        })
+      }
+      showInformation()
+      function showImage(){
+        $.ajax({
+          url: "scan_pic.php",
+          data: {'filename': pname.toLowerCase()},
+          async: false,
+          type: 'post',
+          success: function (res) {
+            res = JSON.parse(res);
+            console.log(pname)
+            var data = res.data;
+            $('.slides').html('')
+            for(var i=0;i<data.length;i++){
+              $('#slides1').append('<li>\n' +
+                      '                    <img src="assets/images/'+data[i]+' " style="width:500px;height: 408px;max-height: 408px;max-width: auto; min-width:400px ; "/>\n' +
+                      '                  </li>')
+              $('#slides2').append('<li>\n' +
+                      '                    <img src="assets/images/'+data[i]+' " style="width:auto;height: 105px;max-height: 105px;max-width: 150px; min-width:0px ;overflow:hidden; "/>\n' +
+                      '                  </li>')
+            }
+            if(data.length==0){
+              $('#slides1').append('<li>\n' +
+                      '                    <img src="assets/images/null.jpeg " style="width:500px;height: 408px;max-height: 408px;max-width: auto; min-width:400px ; "/>\n' +
+                      '                  </li>')
+            }
+          }
+        })
+      }
+      showImage()
+      function getImage(pname){
+        var imageUrl;
+        $.ajax({
+          url: "scan_pic.php",
+          data: {'filename': pname.toLowerCase()},
+          async: false,
+          type: 'post',
+          success: function (res) {
+            res = JSON.parse(res);
+            console.log(pname)
+            var data = res.data
+            console.log(data)
+            if(data.length==0){
+              imageUrl =  'assets/images/null.jpeg'
+            }else{
+              imageUrl =  'assets/images/'+data[0]
+            }
+          }
+        })
+        return imageUrl
+      }
+      $('#purchase').click(function () {
+
+        if(window.location.href.split("?cid=").length==1){
+          $.sendWarningToTop('please login first', 100, function() {});
+          $.sendConfirm({
+            title: 'Login',
+            content: '<div id="addIpBox">' + '<div class="frm-item">' +
+                    '<div class="frm-label"><span class="requireIcon"></span> username:</div>' +
+                    '<input type="text" class="frm-input" name="username">' +
+                    '</div>' +
+                    '<div class="frm-item">' + '<div class="frm-label"><span class="requireIcon"></span> password:</div>' +
+                    '<input type="password" class="frm-input" name="password">' +
+                    '</div></div>' ,
+            button: {
+              confirm: 'ok',
+              cancel: 'cancel'
+            },
+            width: 260,
+            onBeforeConfirm: function() {
+              var username = $('input[name="username"]').val()
+              var flag;
+              $.ajax({
+                url: "../backend/controller.php",
+                data:{'req':'more_operation','query':'select * from customers where cname="'+username+'"'},
+                async:false,
+                type:'post',
+                //data是成功返回的json串
+                success: function (res) {
+                  res = JSON.parse(res);
+                  var data = res.data
+                  console.log(data)
+                  if(data.length>0){
+                    flag = true
+                    // 发送成功的提示框（置顶）
+                    $.sendSuccessToTop('login success', 10, function() {
+                      window.location.href='single-product.html?cid='+data[0]['cid']+'?pid='+pid
+                    })
+
+
+
+                  }else{
+                    flag=false
+                    $.sendWarningToTop('username wrong', 1000, function() {});
+                  }
+                }
+              })
+              return flag
+            },
+            onConfirm: function() {
+
+            },
+            onCancel: function() {
+              console.log('点击取消！');
+            },
+            onClose: function() {
+              console.log('点击关闭！');
+            }
+          });
+
+        }
+        else{
+          var pur = parseInt(Math.random()*(10000+1),10)
+          var er = parseInt(Math.random()*(4+1),10)
+          var eid = 'e0'+er
+          var qty = parseInt($('input[name="quantity"]').val())
+          var cid = window.location.href.split("?pid=")[0].split('?cid=')[1].replace(/#/,'')
+          var data = {
+            'pid':'"'+pid+'"',
+            'pur':pur,
+            'eid':'"'+eid+'"',
+            'qty':qty,
+            'cid':'"'+cid+'"',
+            'req': 'add_purchase',
+          }
+          console.log(data)
+          if(qty>parseInt($('.qoh').text())){
+              $.sendError('Insufficient quantity in stock', 3000, function() {
+              });
+          }else{
+              $.sendConfirm({
+                title: 'Tips',
+                desc: 'Are you sure to purchase <span class="text-info">'+qty+' '+pname+'</span> ,total price is $' + (qty*parseFloat($('.product_price').text().replace('$',''))).toFixed(2)+' ?',
+                button: {
+                  confirm: 'ok',
+                  cancel: 'cancel',
+                },
+                onConfirm: function() {
+                  $.ajax({
+                    url: "../backend/controller.php",
+                    data: data,
+                    async: false,
+                    type: 'post',
+                    //data是成功返回的json串
+                    success: function (res) {
+                      res = JSON.parse(res);
+                      if(res.code==0){
+                        // 发送成功的提示框（置顶）
+                        $.sendSuccessToTop('purchase success', 100, function() {
+                          location.replace(location)
+                        })
+                      }
+                    }
+                  })
+                },
+                onCancel: function() {
+                  console.log('点击取消！');
+                },
+                onClose: function() {
+                  console.log('点击关闭！');
+                }
+              });
+          }
+
+
+        }
+
+      })
+
+
+
+
+
+
+
+
+    </script>
+
+
+  </body>
+
+</html>
